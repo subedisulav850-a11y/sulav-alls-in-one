@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DANGER Tool</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>DANGER Free Fire Tool</h1>
+
+  <div class="card">
+    <h3>Long Bio</h3>
+    <input id="bioUid" placeholder="Enter UID">
+    <button onclick="longBio()">Execute</button>
+    <pre id="bioResult"></pre>
+  </div>
+
+  <div class="card">
+    <h3>Add Friend</h3>
+    <input id="friendUid" placeholder="Your UID">
+    <input id="targetUid" placeholder="Target UID">
+    <button onclick="addFriend()">Execute</button>
+    <pre id="friendResult"></pre>
+  </div>
+
+  <div class="card">
+    <h3>Guild Info / Join / Leave</h3>
+    <input id="guildUid" placeholder="Enter UID">
+    <button onclick="guildInfo()">Get Info</button>
+    <pre id="guildResult"></pre>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
